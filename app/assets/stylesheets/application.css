@@ -4,11 +4,61 @@ padding: 0;
 box-sizing: border-box;
 }
 
- .notice {
- color: #008000;
+body {
+ background-color: #fff;
+ color: #333;
+ font-family: verdana, arial, helvetica, sans-serif;
+ font-size: 13px;
+ line-height: 18px; 
+ margin: 33px;
 }
 
+.title {
+ font-weight: lighter;
+ margin-bottom: 0;
+}
 
+.body {
+ font-weight: lighter;
+ margin-bottom: 0;
+}
+
+.book_title {
+ margin-bottom: 10px;
+}
+
+.book_body {
+ margin-bottom: 10px;
+}
+
+.book_show {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333;
+}
+
+.book_edit {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333;
+}
+
+.book_destroy {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333;
+}
+
+.book_update{
+  margin-bottom: 10px;
+}
+
+.text-success {
+  color: green;
+}
 
 
 
